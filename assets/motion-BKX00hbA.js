@@ -1,0 +1,1 @@
+import{l as e}from"./vendor-motion-Dc9BneHY.js";var t=[.16,1,.3,1],n={once:!0,amount:.2},r={once:!0,amount:.6},i=(t=.08,n=.05)=>({hidden:{},visible:{transition:{delayChildren:e(n,{startDelay:t})}}}),a=(e=.28,n=.97)=>({hidden:{opacity:0,scale:n},visible:{opacity:1,scale:1,transition:{duration:e,ease:t}}});export{i as a,a as i,n,r,t};

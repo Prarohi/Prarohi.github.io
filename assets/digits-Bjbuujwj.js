@@ -1,0 +1,1 @@
+var e=[`০`,`১`,`২`,`৩`,`৪`,`৫`,`৬`,`৭`,`৮`,`৯`],t=t=>t==null?``:typeof t==`number`&&isNaN(t)?`০`:String(t).replace(/[0-9]/g,t=>e[Number(t)]),n=t=>!t||typeof t!=`string`?``:t.replace(/[০-৯]/g,t=>String(e.indexOf(t)));export{t as n,n as t};
